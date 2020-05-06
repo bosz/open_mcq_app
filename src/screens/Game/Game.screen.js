@@ -23,6 +23,10 @@ export class Game extends Component {
         })
     }
 
+    // componentDidMount = () => {
+    //     setInterval(this.changeQuestion, 3000)
+    // }
+
     render() {
         const { count } = this.state
 
