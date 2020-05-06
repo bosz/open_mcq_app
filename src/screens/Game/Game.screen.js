@@ -8,7 +8,24 @@ import QuestionData from '../../../res/data'
 import { Answer, Button } from '../../components'
 
 export class Game extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            count: 0
+        }
+    }
+
+    changeQuestion = () => {
+        this.setState(prev => {
+            return {
+                count: prev.count + 1
+            }
+        })
+    }
+
     render() {
+        const { count } = this.state
+
         return (
             <View style={styles.container}>
                 <StatusBar backgroundColor='#fff' barStyle='dark-content' />
@@ -29,23 +46,24 @@ export class Game extends Component {
                             </View>
                         </View>
                     </View>
-                    <ScrollView horizontal>
-                        { QuestionData.map(item=>(
-                            <View style={{ marginHorizontal: 30, marginTop:20 }}>
+                    <ScrollView showsHorizontalScrollIndicator = {false} horizontal>
+                        {QuestionData.map(item => (
+                            <View style={{ marginHorizontal: 30, marginTop: 20 }}>
                                 <Text>{item.id}</Text>
                             </View>
-                        )) }
+                        ))}
                     </ScrollView>
                 </View>
                 <View style={styles.mainView2}>
                     <View style={styles.answersView}>
-                        <ScrollView contentContainerStyle={{ alignItems: 'center', width: '100%' }}>
+                        <ScrollView showsVerticalScrollIndicator = {false} contentContainerStyle={{ alignItems: 'center', width: '100%' }}>
                             <View style={styles.questionTextView}>
-                                <Text style={styles.questionText}>Which of the following is true about Node.js ?</Text>
+                                <Text style={styles.questionText}>{QuestionData[count].questionText}</Text>
                             </View>
-                            <Answer optionLetter="A" optionAnswer="Node.js is a javascript framework/plartform built on Google chrome's javascript V8" />
-                            <Answer optionLetter="B" optionAnswer="Node.js is a javascript framework/plartform built on Google chrome's javascript V8" />
-                            <Answer optionLetter="C" optionAnswer="Node.js is a javascript framework/plartform built on Google chrome's javascript V8" />
+                            {QuestionData[count].answers.map((item, index) => (
+
+                                <Answer key={index} optionLetter={item.letter} optionAnswer={item.answer} />
+                            ))}
                         </ScrollView>
                         <View style={styles.colorChangingBar}>
                             <View style={styles.changingForward} />
@@ -53,6 +71,7 @@ export class Game extends Component {
                         </View>
                         <Button
                             buttonText='Answer it'
+                            onPress={this.changeQuestion}
                         />
                     </View>
                 </View>

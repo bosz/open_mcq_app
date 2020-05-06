@@ -6,7 +6,7 @@ import styles from './Button.styles'
 class Button extends Component {
   render() {
     return (
-      <TouchableOpacity style={styles.container}>
+      <TouchableOpacity onPress={this.props.onPress} style={styles.container}>
         <Text style={styles.buttonText}>{this.props.buttonText}</Text>
       </TouchableOpacity>
     );
