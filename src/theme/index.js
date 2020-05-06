@@ -9,7 +9,7 @@ export default {
 
 	// COLORS
 	PRIMARY_COLOR: 'rgb(0, 102, 34)',
-	SECONDARY_COLOR: 'rgb(0, 153, 51)',
+	SECONDARY_COLOR: 'rgba(0, 153, 51, 0.2)',
 	WHITE_COLOR: '#FFFFFF',
 	BLACK_COLOR: '#000000',
 	DARK_COLOR: '#000000',

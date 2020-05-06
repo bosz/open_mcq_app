@@ -9,12 +9,12 @@ const QuestionData = [
                     answer: 'Nodejs is a javascript framework/framework built on Google chrome\'s javascript v8'
                },
                {
-                    id: 1,
+                    id: 2,
                     letter: 'B',
                     answer: 'Nodejs is a javascript framework/framework built on Google chrome\'s javascript v8'
                },
                {
-                    id: 1,
+                    id: 3,
                     letter: 'C',
                     answer: 'Nodejs is a javascript framework/framework built on Google chrome\'s javascript v8'
                }
@@ -30,12 +30,12 @@ const QuestionData = [
                     answer: 'Nodejs is a javascript framework/framework built on Google chrome\'s javascript v8'
                },
                {
-                    id: 1,
+                    id: 2,
                     letter: 'B',
                     answer: 'Nodejs is a javascript framework/framework built on Google chrome\'s javascript v8'
                },
                {
-                    id: 1,
+                    id: 3,
                     letter: 'C',
                     answer: 'Nodejs is a javascript framework/framework built on Google chrome\'s javascript v8'
                }
@@ -51,12 +51,12 @@ const QuestionData = [
                     answer: 'Nodejs is a javascript framework/framework built on Google chrome\'s javascript v8'
                },
                {
-                    id: 1,
+                    id: 2,
                     letter: 'B',
                     answer: 'Nodejs is a javascript framework/framework built on Google chrome\'s javascript v8'
                },
                {
-                    id: 1,
+                    id: 3,
                     letter: 'C',
                     answer: 'Nodejs is a javascript framework/framework built on Google chrome\'s javascript v8'
                }
@@ -72,12 +72,12 @@ const QuestionData = [
                     answer: 'Nodejs is a javascript framework/framework built on Google chrome\'s javascript v8'
                },
                {
-                    id: 1,
+                    id: 2,
                     letter: 'B',
                     answer: 'Nodejs is a javascript framework/framework built on Google chrome\'s javascript v8'
                },
                {
-                    id: 1,
+                    id: 3,
                     letter: 'C',
                     answer: 'Nodejs is a javascript framework/framework built on Google chrome\'s javascript v8'
                }
@@ -93,12 +93,12 @@ const QuestionData = [
                     answer: 'Nodejs is a javascript framework/framework built on Google chrome\'s javascript v8'
                },
                {
-                    id: 1,
+                    id: 2,
                     letter: 'B',
                     answer: 'Nodejs is a javascript framework/framework built on Google chrome\'s javascript v8'
                },
                {
-                    id: 1,
+                    id: 3,
                     letter: 'C',
                     answer: 'Nodejs is a javascript framework/framework built on Google chrome\'s javascript v8'
                }
@@ -114,12 +114,12 @@ const QuestionData = [
                     answer: 'Nodejs is a javascript framework/framework built on Google chrome\'s javascript v8'
                },
                {
-                    id: 1,
+                    id: 2,
                     letter: 'B',
                     answer: 'Nodejs is a javascript framework/framework built on Google chrome\'s javascript v8'
                },
                {
-                    id: 1,
+                    id: 3,
                     letter: 'C',
                     answer: 'Nodejs is a javascript framework/framework built on Google chrome\'s javascript v8'
                }
@@ -135,12 +135,12 @@ const QuestionData = [
                     answer: 'Nodejs is a javascript framework/framework built on Google chrome\'s javascript v8'
                },
                {
-                    id: 1,
+                    id: 2,
                     letter: 'B',
                     answer: 'Nodejs is a javascript framework/framework built on Google chrome\'s javascript v8'
                },
                {
-                    id: 1,
+                    id: 3,
                     letter: 'C',
                     answer: 'Nodejs is a javascript framework/framework built on Google chrome\'s javascript v8'
                }

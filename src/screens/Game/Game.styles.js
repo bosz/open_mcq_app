@@ -117,6 +117,12 @@ const styles = StyleSheet.create({
         height: '100%',
         borderRadius: 5,
         backgroundColor: theme.WHITE_COLOR
+    },
+    animationView: {
+        position: 'absolute',
+        top: 0,
+        width: '100%',
+        backgroundColor: theme.SECONDARY_COLOR,
     }   
 });
 
